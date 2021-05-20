@@ -11,7 +11,7 @@ from pydantic import BaseModel
 from .embeddings import get_embeddings
 
 
-app = FastAPI()
+app = FastAPI(root_path="/stg/")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
