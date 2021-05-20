@@ -1,0 +1,20 @@
+{
+  "resource": "/{proxy+}",
+  "path": "/",
+  "httpMethod": "GET",
+  "headers": null,
+  "multiValueHeaders": null,
+  "queryStringParameters": null,
+  "multiValueQueryStringParameters": null,
+  "pathParameters": null,
+  "stageVariables": null,
+  "requestContext": {
+    "resourceId": "64vitw",
+    "resourcePath": "/{proxy+}",
+    "httpMethod": "GET",
+    "extendedRequestId": "fne1hGVbtjMFlXQ=",
+    "requestTime": "20/May/2021:07:37:32 +0000",
+    "path": "/{proxy+}",
+    "accountId": "821720601886"
+  }
+}
