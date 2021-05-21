@@ -1,9 +1,8 @@
+from typing import List
+
 import numpy as np
-import tensorflow as tf
 import tensorflow_hub as hub
 import tensorflow_text  # This is always need for loading model
-
-from typing import List
 
 
 model = hub.load("./app/model/")
